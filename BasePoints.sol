@@ -18,7 +18,3 @@ contract BasePoints {
     }
 }
 
-    function myPoints() external view returns (uint256) {
-        return points[msg.sender];
-}
-}
